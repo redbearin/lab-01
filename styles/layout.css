@@ -1,4 +1,14 @@
 @media (max-width: 768px) {
+
+    .center-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+      }
+      
     #a, #b, #c, #d, #i {
         width: 480px;
     }
@@ -44,8 +54,10 @@
 }
 
 @media (min-width: 769px) {
+    
     body{
         width: 960px;
+        margin: auto;
     }
     #a {
     width: 960px;
